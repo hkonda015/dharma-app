@@ -5,11 +5,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src', // Correct alias for the source directory
+      '@': '/src', // Alias for the source folder
     },
   },
-  base: '/', // Ensure this is '/' for root-level deployment
+  base: '/', // Set base path to '/' for root-level deployment
   build: {
-    outDir: 'dist', // Ensure build output is placed in dist/
+    outDir: 'dist', // Make sure the build output is placed in 'dist'
   },
 });
